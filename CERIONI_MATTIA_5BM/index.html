@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Libertà di Espressione e Sicurezza Online</title>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Instrument+Sans:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <script src="index.js"></script>
+</head>
+<body>
+<div class="layout">
+
+<!-- ══ SIDEBAR ══ -->
+<aside class="sidebar">
+  <div>
+    <div class="sidebar-logo">Libertà Digitale</div>
+    <div class="sidebar-school">IIS Marconi Pieralisi — Jesi</div>
+  </div>
+
+  <span class="nav-group-label">Panoramica</span>
+  <a href="#intro"      class="nav-link active"><span class="icon">🏠</span>Introduzione</a>
+  <a href="#uda"        class="nav-link"><span class="icon">📋</span>L'UDA</a>
+  <a href="#obiettivi"  class="nav-link"><span class="icon">🎯</span>Obiettivi</a>
+  <a href="#materie"    class="nav-link"><span class="icon">📚</span>Materie</a>
+
+  <span class="nav-group-label">Contenuti</span>
+  <a href="#liberta"    class="nav-link"><span class="icon">🗣️</span>Libertà</a>
+  <a href="#sicurezza"  class="nav-link"><span class="icon">🔒</span>Sicurezza</a>
+  <a href="#cia"        class="nav-link"><span class="icon">🛡️</span>Triade CIA</a>
+  <a href="#rischi"     class="nav-link"><span class="icon">⚠️</span>Rischi</a>
+  <a href="#privacy"    class="nav-link"><span class="icon">👤</span>Privacy & GDPR</a>
+  <a href="#fakenews"   class="nav-link"><span class="icon">📰</span>Fake News</a>
+
+  <span class="nav-group-label">Materie</span>
+  <a href="#storia"     class="nav-link"><span class="icon">📜</span>Storia</a>
+  <a href="#italiano"   class="nav-link"><span class="icon">📝</span>Italiano</a>
+  <a href="#gpoi"       class="nav-link"><span class="icon">🏢</span>GPOI</a>
+  <a href="#sistemi"    class="nav-link"><span class="icon">💻</span>Sistemi e Reti</a>
+
+  <span class="nav-group-label">Conclusioni</span>
+  <a href="#fasi"       class="nav-link"><span class="icon">📅</span>Fasi del percorso</a>
+  <a href="#competenze" class="nav-link"><span class="icon">🏆</span>Competenze</a>
+  <a href="#equilibrio" class="nav-link"><span class="icon">⚖️</span>Equilibrio</a>
+
+  <div class="sidebar-footer">
+    <button class="theme-btn" id="themeToggle" onclick="toggleDark()">🌙 Modalità scura</button>
+  </div>
+</aside>
+
+<!-- ══ MAIN CONTENT ══ -->
+<main class="content">
+
+  <!-- HERO -->
+  <section id="intro">
+    <div class="hero">
+      <div class="hero-tag">🎓 UDA · Educazione Civica</div>
+      <h1>Libertà di Espressione<br>e <span>Sicurezza Online</span></h1>
+      <p class="hero-sub">
+        Un percorso interdisciplinare per comprendere come diritti, responsabilità
+        e tecnologia si intrecciano nel mondo digitale contemporaneo.
+      </p>
+      <div class="hero-meta">
+        <span class="badge">🏫 5AM · 5BM · 5CM</span>
+        <span class="badge">⏱️ 21 ore</span>
+        <span class="badge">📐 4 materie</span>
+        <span class="badge">📆 Pentamestre</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- L'UDA -->
+  <section id="uda">
+    <div class="section-label">Presentazione</div>
+    <h2 class="section-title">L'Unità di Apprendimento</h2>
+    <p>
+      L'UDA si propone di sviluppare negli studenti una consapevolezza critica e responsabile
+      nell'uso delle tecnologie digitali, combinando storia, italiano, gestione di progetto
+      e sistemi informatici in un unico percorso coerente.
+    </p>
+    <div class="stat-row">
+      <div class="stat-card"><div class="stat-number">21</div><div class="stat-label">Ore totali</div></div>
+      <div class="stat-card"><div class="stat-number">4</div><div class="stat-label">Materie coinvolte</div></div>
+      <div class="stat-card"><div class="stat-number">5</div><div class="stat-label">Competenze chiave</div></div>
+      <div class="stat-card"><div class="stat-number">5</div><div class="stat-label">Fasi del progetto</div></div>
+    </div>
+    <div class="callout">
+      <strong>Prodotto finale:</strong> Elaborato digitale (presentazione, infografica o vademecum)
+      sul tema libertà di espressione e sicurezza online, con eventuale relazione argomentativa a supporto.
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- OBIETTIVI -->
+  <section id="obiettivi">
+    <div class="section-label">Traguardi</div>
+    <h2 class="section-title">Obiettivi del percorso</h2>
+    <div class="obiettivi-list">
+      <div class="obiettivo"><div class="obiettivo-num">01</div>Comprendere il rapporto tra diritti, doveri e comunicazione digitale</div>
+      <div class="obiettivo"><div class="obiettivo-num">02</div>Valutare criticamente fonti e contenuti online</div>
+      <div class="obiettivo"><div class="obiettivo-num">03</div>Adottare comportamenti sicuri e responsabili in rete</div>
+      <div class="obiettivo"><div class="obiettivo-num">04</div>Riflettere sulle responsabilità etiche nell'uso delle tecnologie</div>
+      <div class="obiettivo"><div class="obiettivo-num">05</div>Progettare e realizzare un prodotto digitale documentato</div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- STORIA -->
+  <section id="storia">
+    <div class="section-label">Disciplina storica</div>
+    <h2 class="section-title">Storia: Dalla propaganda alle fake news</h2>
+    <p>
+      La storia del XX secolo ci offre numerosi esempi di come l'informazione possa essere manipolata
+      per influenzare le masse. Dal totalitarismo alla società digitale, il controllo dell'informazione
+      rimane uno strumento fondamentale del potere.
+    </p>
+    <div class="grid">
+      <div class="card">
+        <div class="card-icon">📰</div>
+        <h3>Propaganda e totalitarismi</h3>
+        <p>I regimi del XX secolo hanno dimostrato come il controllo dell'informazione possa trasformare la società, dai ministeri della propaganda alle campagne di disinformazione sistematica.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🎭</div>
+        <h3>Censura e libertà di stampa</h3>
+        <p>L'evoluzione della censura dai regimi autoritari alle democrazie contemporanee, passando per le sfide poste dalla comunicazione digitale.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">📊</div>
+        <h3>Dagli archivi cartacei al cloud</h3>
+        <p>La trasformazione dell'informazione da bene fisico a dato digitale e le implicazioni per la storia e la memoria collettiva.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🕰️</div>
+        <h3>Storia dell'informazione</h3>
+        <p>Dall'invenzione della stampa di Gutenberg alla nascita di internet: come le tecnologie hanno sempre influenzato la diffusione dell'informazione.</p>
+      </div>
+    </div>
+    
+    <div class="callout">
+      <strong>Approfondimento storico:</strong> Il Novecento è stato il secolo in cui l'informazione è diventata un'arma politica. La propaganda nazista di Goebbels, la censura sovietica, il controllo dell'informazione nei regimi fascisti hanno dimostrato come la manipolazione dell'informazione possa alterare la percezione della realtà. Oggi, nell'era digitale, le stesse dinamiche si ripetono con strumenti più sofisticati: algoritmi, intelligenza artificiale e big data.
+      <br><br>
+      <strong>Fonti:</strong> Hannah Arendt - "Le origini del totalitarismo"; Zygmunt Bauman - "Modernità liquida"; Timothy Snyder - "On Tyranny"
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ITALIANO -->
+  <section id="italiano">
+    <div class="section-label">Linguistica e comunicazione</div>
+    <h2 class="section-title">Italiano: Il linguaggio digitale</h2>
+    <p>
+      Il linguaggio utilizzato nella comunicazione digitale presenta caratteristiche specifiche
+      che influenzano il modo in cui percepiamo e trasmettiamo l'informazione. Dalla netiquette
+      alla scrittura argomentativa, esploriamo come si evolve la comunicazione nell'era digitale.
+    </p>
+    <div class="grid">
+      <div class="card">
+        <div class="card-icon">💬</div>
+        <h3>Lessico della rete</h3>
+        <p>L'evoluzione del linguaggio nei contesti digitali: dagli hashtag agli emoji, dallo slang giovanile ai nuovi registri comunicativi.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">📖</div>
+        <h3>Analisi testuale</h3>
+        <p>Come leggere criticamente i testi giornalistici e digitali, riconoscendo pregiudizi, manipolazioni e tecniche persuasive.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">✍️</div>
+        <h3>Scrittura argomentativa</h3>
+        <p>Costruire argomentazioni efficaci nel mondo digitale, distinguere tra opinioni e fatti, sviluppare pensiero critico.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🤝</div>
+        <h3>Netiquette</h3>
+        <p>Le regole di comportamento nella comunicazione digitale: dal rispetto nella conversazione online alla gestione del dissenso.</p>
+      </div>
+    </div>
+    
+    <div class="callout">
+      <strong>Linguaggio e potere:</strong> Il linguaggio non è mai neutro. Nel mondo digitale, le parole possono diffondersi a velocità esponenziale, creando camere d'eco o aprendo spazi di confronto democratico. La capacità di usare il linguaggio in modo consapevole è fondamentale per partecipare attivamente alla vita democratica, online e offline.
+      <br><br>
+      <strong>Fonti:</strong> Umberto Eco - "La bustina di Minerva"; Stefano Bartezzaghi - "Il linguaggio dell'era digitale"; Naomi Baron - "Always On"
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- GPOI -->
+  <section id="gpoi">
+    <div class="section-label">Gestione e organizzazione</div>
+    <h2 class="section-title">GPOI: Sicurezza e privacy nelle organizzazioni</h2>
+    <p>
+      La gestione della sicurezza e della privacy non è solo una questione tecnica, ma un processo
+      organizzativo complesso che coinvolge normative, risorse umane e strategie aziendali.
+      Dal GDPR alla gestione del rischio, esploriamo come le organizzazioni affrontano le sfide digitali.
+    </p>
+    <div class="grid">
+      <div class="card">
+        <div class="card-icon">🏢</div>
+        <h3>Sicurezza come requisito organizzativo</h3>
+        <p>Come le aziende integrano la cybersecurity nei loro processi decisionali, dalla governance alla gestione operativa.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">⚠️</div>
+        <h3>Gestione del rischio digitale</h3>
+        <p>Identificazione, valutazione e mitigazione dei rischi informatici in ambito organizzativo, dal data breach alla business continuity.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">📋</div>
+        <h3>GDPR e compliance</h3>
+        <p>L'impatto del Regolamento Europeo sulla protezione dei dati sulle organizzazioni: obblighi, sanzioni e best practices.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🎯</div>
+        <h3>Privacy by design</h3>
+        <p>L'approccio che integra la privacy fin dalla fase di progettazione dei sistemi e dei processi organizzativi.</p>
+      </div>
+    </div>
+    
+    <div class="callout">
+      <strong>Il valore dell'informazione:</strong> Nel mondo digitale, i dati personali sono diventati una commodity economica fondamentale. Le organizzazioni che raccolgono e processano dati personali devono bilanciare l'innovazione con la protezione della privacy, creando valore senza compromettere i diritti fondamentali dei cittadini.
+      <br><br>
+      <strong>Fonti:</strong> EU GDPR Regulation 2016/679; ISO 27001 Standard; NIST Privacy Framework
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- SISTEMI E RETI -->
+  <section id="sistemi">
+    <div class="section-label">Tecnologia e sicurezza</div>
+    <h2 class="section-title">Sistemi e Reti: La cybersicurezza tecnica</h2>
+    <p>
+      La cybersicurezza si basa su principi tecnici fondamentali che garantiscono la protezione
+      dei sistemi informativi. Dalla triade CIA agli attacchi più comuni, esploriamo il mondo
+      della sicurezza informatica applicata.
+    </p>
+    <div class="grid">
+      <div class="card">
+        <div class="card-icon">🔐</div>
+        <h3>Principi di cybersicurezza</h3>
+        <p>La triade CIA (Confidentiality, Integrity, Availability) come fondamento di ogni strategia di sicurezza informatica.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🛡️</div>
+        <h3>Tecnologie di protezione</h3>
+        <p>Autenticazione, crittografia, firewall e altre tecnologie essenziali per la protezione dei sistemi informatici.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🎣</div>
+        <h3>Attacchi e minacce</h3>
+        <p>Phishing, malware, ransomware: come funzionano i principali attacchi informatici e come difendersi efficacemente.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🌐</div>
+        <h3>Reti e infrastrutture</h3>
+        <p>La sicurezza delle reti informatiche, dai protocolli di comunicazione agli attacchi DDoS e le contromisure.</p>
+      </div>
+    </div>
+    
+    <div class="callout">
+      <strong>La cybersecurity come scienza:</strong> La sicurezza informatica è una disciplina in rapida evoluzione che richiede competenze tecniche, ma anche comprensione dei comportamenti umani. La vulnerabilità più debole in un sistema è spesso l'utente, rendendo fondamentale l'educazione alla sicurezza digitale.
+      <br><br>
+      <strong>Fonti:</strong> NIST Cybersecurity Framework; OWASP Top 10; ENISA Threat Landscape
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- LIBERTÀ -->
+  <section id="liberta">
+    <div class="section-label">Diritti fondamentali</div>
+    <h2 class="section-title">Libertà di espressione</h2>
+    <p>
+      La libertà di espressione è un diritto fondamentale riconosciuto dalla Costituzione italiana
+      (art. 21) e dalla Carta dei diritti fondamentali dell'UE. Internet ne ha amplificato la portata,
+      ma ha anche moltiplicato le sfide.
+    </p>
+    <div class="grid">
+      <div class="card">
+        <div class="card-icon">📜</div>
+        <h3>Diritto fondamentale</h3>
+        <p>Garantisce a chiunque di esprimere opinioni, idee e pensieri senza preventiva censura o autorizzazione.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🌐</div>
+        <h3>Internet come amplificatore</h3>
+        <p>La rete consente a milioni di persone di comunicare globalmente in tempo reale, abbattendo le barriere geografiche.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">⚖️</div>
+        <h3>Limiti e responsabilità</h3>
+        <p>La libertà di espressione non è assoluta: non può violare la dignità altrui, diffondere odio o ledere altri diritti fondamentali.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🚫</div>
+        <h3>Hate speech</h3>
+        <p>Espressioni che incitano all'odio sulla base di razza, religione o orientamento sono vietate dalla legge e dai regolamenti delle piattaforme.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🗞️</div>
+        <h3>Censura storica</h3>
+        <p>Il Novecento ha mostrato i pericoli del controllo dell'informazione: dalla propaganda totalitaria ai regimi di censura sistematica.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🤝</div>
+        <h3>Netiquette</h3>
+        <p>L'insieme di regole comportamentali che governano la comunicazione online, promuovendo rispetto e correttezza digitale.</p>
+      </div>
+    </div>
+    
+    <div class="callout">
+      <strong>Approfondimento storico:</strong> La libertà di espressione ha radici profonde nella storia occidentale. Dalla Carta Magna del 1215 alla Dichiarazione di Indipendenza americana del 1776, fino all'Articolo 21 della nostra Costituzione repubblicana del 1948. Nel mondo digitale, questo diritto si scontra con nuove sfide: dall'amplificazione algoritmica della disinformazione alla diffusione di contenuti d'odio a velocità senza precedenti. Secondo l'Unione Europea, il 64% dei giovani europei ha incontrato contenuti d'odio online, rendendo cruciale l'educazione alla cittadinanza digitale.
+      <br><br>
+      <strong>Fonti:</strong> Costituzione Italiana Art. 21; Carta dei Diritti Fondamentali UE; Report EU Kids Online 2023
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- SICUREZZA -->
+  <section id="sicurezza">
+    <div class="section-label">Protezione digitale</div>
+    <h2 class="section-title">Sicurezza online</h2>
+    <p>
+      La sicurezza informatica non è solo una questione tecnica: dipende anche dai comportamenti
+      quotidiani degli utenti e dalla consapevolezza dei rischi.
+    </p>
+    <div class="grid">
+      <div class="card">
+        <div class="card-icon">🔑</div>
+        <h3>Password sicure</h3>
+        <p>Una buona password è lunga (12+ caratteri), mista di lettere, numeri e simboli, e diversa per ogni servizio.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">📱</div>
+        <h3>Autenticazione a 2 fattori</h3>
+        <p>Il secondo fattore (SMS, app, token) riduce drasticamente il rischio di accesso non autorizzato anche in caso di password rubata.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🔄</div>
+        <h3>Aggiornamenti</h3>
+        <p>Mantenere aggiornati sistema operativo e applicazioni chiude le vulnerabilità che i cybercriminali sfruttano attivamente.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🌐</div>
+        <h3>Connessioni sicure</h3>
+        <p>Preferire connessioni HTTPS e VPN su reti pubbliche per proteggere il traffico dati da intercettazioni.</p>
+      </div>
+    </div>
+    
+    <div class="callout">
+      <strong>Dati aggiornati sulla cybersecurity:</strong> Secondo l'ENISA (Agenzia Europea per la Sicurezza delle Reti), nel 2023 si sono verificati oltre 2.500 incidenti di sicurezza significativi in Europa, con un aumento del 35% rispetto all'anno precedente. Il costo medio di un attacco ransomware per le PMI italiane è stimato in 50.000€, mentre il 67% degli italiani dichiara di non utilizzare l'autenticazione a due fattori. 
+      <br><br>
+      <strong>Fonti:</strong> ENISA Threat Landscape Report 2023; Clusit Report 2024; Eurostat Digital Economy Survey
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- CIA TRIAD -->
+  <section id="cia">
+    <div class="section-label">Fondamenti di Cybersecurity</div>
+    <h2 class="section-title">La Triade CIA</h2>
+    <p>
+      I tre pilastri fondamentali della sicurezza informatica, riconosciuti a livello internazionale
+      come standard di riferimento per qualsiasi sistema informativo.
+    </p>
+    <div class="cia-grid">
+      <div class="cia-card">
+        <div class="cia-letter">C</div>
+        <div class="cia-name">Confidentiality</div>
+        <div class="cia-desc">Le informazioni devono essere accessibili solo a chi è autorizzato. Strumenti: crittografia, controllo accessi, autenticazione.</div>
+      </div>
+      <div class="cia-card">
+        <div class="cia-letter">I</div>
+        <div class="cia-name">Integrity</div>
+        <div class="cia-desc">I dati devono essere accurati e non alterati senza autorizzazione. Strumenti: hash, firme digitali, audit log.</div>
+      </div>
+      <div class="cia-card">
+        <div class="cia-letter">A</div>
+        <div class="cia-name">Availability</div>
+        <div class="cia-desc">I sistemi devono essere disponibili quando necessario. Strumenti: backup, ridondanza, protezione da DDoS.</div>
+      </div>
+    </div>
+    
+    <div class="callout">
+      <strong>Standard internazionali:</strong> La triade CIA è formalizzata nello standard ISO/IEC 27001:2022 per i sistemi di gestione della sicurezza dell'informazione. Questo standard è adottato da oltre 60.000 organizzazioni in 150 paesi. La conformità GDPR richiede esplicitamente che le organizzazioni implementino misure tecniche e organizzative appropriate per garantire questi tre principi fondamentali.
+      <br><br>
+      <strong>Fonti:</strong> ISO/IEC 27001:2022; NIST Cybersecurity Framework 2.0; EU Cybersecurity Act
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- RISCHI -->
+  <section id="rischi">
+    <div class="section-label">Minacce comuni</div>
+    <h2 class="section-title">Rischi del mondo digitale</h2>
+    <p>Conoscere le principali minacce è il primo passo per difendersi efficacemente.</p>
+    <div class="accordion">
+
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <span>🎣 Phishing</span>
+          <span class="accordion-arrow">▼</span>
+        </div>
+        <div class="accordion-content">
+          Il phishing è una tecnica di ingegneria sociale in cui l'attaccante si finge un'entità fidata
+          (banca, servizio web, collega) per carpire credenziali, dati bancari o informazioni personali.
+          Si manifesta via email, SMS (smishing) o chiamate telefoniche (vishing). 
+          <br><br><strong>Come difendersi:</strong> Verificare sempre il mittente, non cliccare su link sospetti,
+          non fornire mai credenziali tramite email.
+          <br><br><strong>Dati:</strong> Secondo l'APWG (Anti-Phishing Working Group), nel 2023 sono stati registrati oltre 5 milioni di attacchi di phishing al mese a livello globale, con un aumento del 150% rispetto al 2022.
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <span>🦠 Malware</span>
+          <span class="accordion-arrow">▼</span>
+        </div>
+        <div class="accordion-content">
+          Il malware (software malevolo) comprende virus, trojan, ransomware, spyware e adware.
+          Il ransomware in particolare cifra i file della vittima richiedendo un riscatto per il ripristino,
+          causando danni enormi a privati e aziende.
+          <br><br><strong>Come difendersi:</strong> Antivirus aggiornato, non scaricare software da fonti non ufficiali,
+          backup regolari dei dati.
+          <br><br><strong>Costi:</strong> Il costo globale del ransomware nel 2023 è stato stimato in 20 miliardi di dollari da Cybersecurity Ventures.
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <span>😢 Cyberbullismo</span>
+          <span class="accordion-arrow">▼</span>
+        </div>
+        <div class="accordion-content">
+          Il cyberbullismo è l'uso della rete per molestare, minacciare o umiliare altre persone, 
+          spesso in modo reiterato. Può assumere forme di insulti, diffusione di immagini private,
+          esclusione sociale o stalking online. Ha gravi conseguenze psicologiche per le vittime.
+          <br><br><strong>Come reagire:</strong> Non rispondere, bloccare l'autore, conservare le prove,
+          segnalare alla piattaforma e alle autorità.
+          <br><br><strong>Statistiche:</strong> Secondo l'UNICEF, il 37% dei giovani europei ha subito forme di cyberbullismo almeno una volta.
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <span>🔓 Data breach</span>
+          <span class="accordion-arrow">▼</span>
+        </div>
+        <div class="accordion-content">
+          Un data breach è una violazione della sicurezza che porta all'accesso, divulgazione o furto
+          non autorizzato di dati personali. Le aziende sono obbligate dal GDPR a notificare le
+          violazioni al Garante entro 72 ore e agli utenti se il rischio è elevato.
+          <br><br><strong>Impatti:</strong> Danni economici, reputazionali e legali per le organizzazioni;
+          furto d'identità per i privati.
+          <br><br><strong>Notifica:</strong> In Italia, il Garante Privacy ha ricevuto 1.200 notifiche di violazione nel 2023.
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <span>🌐 Attacchi DDoS</span>
+          <span class="accordion-arrow">▼</span>
+        </div>
+        <div class="accordion-content">
+          Un attacco Distributed Denial of Service (DDoS) sommerge un server o una rete con traffico
+          artificiale per renderlo irraggiungibile. Viene spesso usato contro servizi critici, 
+          infrastrutture governative o aziende concorrenti.
+          <br><br><strong>Contromisure:</strong> CDN, firewall, rate limiting e servizi di mitigazione specializzati.
+          <br><br><strong>Dimensioni:</strong> Gli attacchi DDoS possono superare 1 Tbps di traffico malevolo, come registrato da NETSCOUT nel 2023.
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <span>🔒 Social Engineering</span>
+          <span class="accordion-arrow">▼</span>
+        </div>
+        <div class="accordion-content">
+          L'ingegneria sociale manipola psicologicamente le persone per ottenere informazioni riservate
+          o accesso a sistemi. Sfrutta la fiducia, l'autorità, l'urgenza o la paura. 
+          Il fattore umano rimane la vulnerabilità più difficile da proteggere con la sola tecnologia.
+          <br><br><strong>Come difendersi:</strong> Formazione continua, protocolli di verifica, cultura della sicurezza.
+          <br><br><strong>Prevalenza:</strong> Secondo il Verizon Data Breach Report 2023, l'82% delle violazioni coinvolge l'elemento umano.
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- PRIVACY & GDPR -->
+  <section id="privacy">
+    <div class="section-label">Normativa europea</div>
+    <h2 class="section-title">Privacy e GDPR</h2>
+    <p>
+      Il Regolamento Generale sulla Protezione dei Dati (GDPR, Reg. UE 2016/679) è entrato in vigore
+      nel maggio 2018 e rappresenta il quadro normativo di riferimento per la protezione dei dati
+      personali in tutta l'Unione Europea.
+    </p>
+    <div class="grid">
+      <div class="card">
+        <div class="card-icon">📄</div>
+        <h3>Principio di consenso</h3>
+        <p>Il trattamento dei dati personali richiede un consenso esplicito, libero e informato dell'interessato.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🗑️</div>
+        <h3>Diritto all'oblio</h3>
+        <p>Ogni persona può richiedere la cancellazione dei propri dati quando non sono più necessari agli scopi per cui erano stati raccolti.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">📦</div>
+        <h3>Portabilità dei dati</h3>
+        <p>Gli utenti possono richiedere una copia dei propri dati in formato leggibile e trasferirli ad altri servizi.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🔔</div>
+        <h3>Notifica di violazione</h3>
+        <p>Le aziende devono notificare le violazioni al Garante Privacy entro 72 ore dalla scoperta, e agli utenti se il rischio è elevato.</p>
+      </div>
+    </div>
+    
+    <div class="callout">
+      <strong>Impatti del GDPR:</strong> A 5 anni dal suo ingresso in vigore, il GDPR ha rivoluzionato il panorama della privacy digitale. Secondo la Commissione Europea, le sanzioni totali irrogate nel 2023 superano i 2 miliardi di euro a livello UE. Le notifiche di violazione ricevute dai Garanti europei sono state oltre 400.000 nel solo 2023. L'Italia ha visto sanzioni per 300 milioni di euro dal 2018, con una crescita esponenziale degli incidenti segnalati.
+      <br><br>
+      <strong>Fonti:</strong> GDPR Reg. UE 2016/679; European Data Protection Board Annual Report 2023; Garante Privacy Italiano - Relazione Annuale 2023
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- FAKE NEWS -->
+  <section id="fakenews">
+    <div class="section-label">Pensiero critico</div>
+    <h2 class="section-title">Disinformazione e Fake News</h2>
+    <p>
+      Nell'era digitale, la capacità di distinguere informazioni vere da false è una competenza
+      civica fondamentale. La disinformazione può influenzare elezioni, salute pubblica e coesione sociale.
+    </p>
+    <div class="grid">
+      <div class="card">
+        <div class="card-icon">🔍</div>
+        <h3>Fact-checking</h3>
+        <p>Verificare le notizie attraverso fonti attendibili prima di condividerle. Strumenti: Snopes, FactCheck.org, Pagella Politica.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🫧</div>
+        <h3>Filter bubble</h3>
+        <p>Gli algoritmi delle piattaforme tendono a mostrare solo contenuti con cui siamo già d'accordo, creando camere d'eco.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🤖</div>
+        <h3>Deepfake e AI</h3>
+        <p>L'intelligenza artificiale può generare video e immagini realistici ma falsi, rendendo sempre più difficile distinguere il vero dal finto.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">📊</div>
+        <h3>Manipolazione dei dati</h3>
+        <p>I dati possono essere presentati in modo parziale o fuorviante. È fondamentale verificare sempre la fonte e il contesto dei numeri.</p>
+      </div>
+    </div>
+    
+    <div class="callout">
+      <strong>La disinformazione nell'era digitale:</strong> Secondo l'Osservatorio Europeo per la Disinformazione Digital Services Act, nel 2023 sono stati identificati oltre 2.000 casi significativi di disinformazione nell'UE. Durante la pandemia, l'OMS ha parlato di "infodemia" per descrivere la sovrabbondanza di informazioni false sul COVID-19. Uno studio dell'MIT ha dimostrato che le fake news si diffondono 6 volte più velocemente delle notizie vere sui social media. In Italia, il 55% degli italiani dichiara di aver incontrato notizie false online almeno una volta a settimana.
+      <br><br>
+      <strong>Fonti:</strong> EU Disinformation Observatory 2023; MIT Study "The Spread of True and False News Online" (Science, 2018); ISTAT - Cittadini e ICT 2023
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- FASI -->
+  <section id="fasi">
+    <div class="section-label">Metodologia</div>
+    <h2 class="section-title">Fasi del percorso</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-step">Fase 1</div>
+        <div class="timeline-title">Avvio e definizione del problema</div>
+        <div class="timeline-desc">Presentazione di casi reali e notizie di attualità come stimolo. Discussione collettiva per definire il problema e attivare le preconoscenze degli studenti.</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-step">Fase 2</div>
+        <div class="timeline-title">Approfondimento disciplinare</div>
+        <div class="timeline-desc">Ogni materia contribuisce con il proprio punto di vista: Storia analizza il passato, Italiano lavora sulla comunicazione, GPOI sulle normative, Sistemi e Reti sulla tecnica.</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-step">Fase 3</div>
+        <div class="timeline-title">Lavoro di gruppo</div>
+        <div class="timeline-desc">Scelta del tema specifico, raccolta e valutazione critica delle fonti, progettazione del prodotto finale attraverso cooperative learning.</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-step">Fase 4</div>
+        <div class="timeline-title">Realizzazione del prodotto digitale</div>
+        <div class="timeline-desc">Creazione dell'elaborato finale: presentazione, infografica o vademecum, con eventuale relazione argomentativa di supporto.</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-step">Fase 5</div>
+        <div class="timeline-title">Presentazione e valutazione</div>
+        <div class="timeline-desc">Presentazione del prodotto alla classe, discussione, peer review e valutazione finale da parte dei docenti.</div>
+      </div>
+    </div>
+    
+    <div class="callout">
+      <strong>Metodologia didattica:</strong> Il percorso si basa sul modello di apprendimento cooperativo di Johnson & Johnson (1999) e sull'approccio Problem-Based Learning (PBL) sviluppato all'Università di Maastricht. L'interdisciplinarità segue il modello disciplinare integrato di Boix Mansilla & Duraisingh (2007), dove ciascuna materia mantiene la propria identità epistemologica mentre contribuisce a una comprensione condivisa del tema. Le 21 ore sono distribuite seguendo il principio della spiral curriculum di Bruner, con ritorni crescenti sul tema in prospettiva disciplinare diversa.
+      <br><br>
+      <strong>Fonti:</strong> Johnson, D. W., & Johnson, R. T. (1999). Learning Together and Alone; Boix Mansilla, V., & Duraisingh, E. D. (2007). Harvard Educational Review
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- COMPETENZE -->
+  <section id="competenze">
+    <div class="section-label">Framework competenze</div>
+    <h2 class="section-title">Competenze di Educazione Civica</h2>
+    <p>Il percorso sviluppa cinque competenze chiave certificate dal Ministero dell'Istruzione.</p>
+
+    <div class="competenza-card">
+      <div class="competenza-code">C.ED.CIV.01</div>
+      <div class="competenza-desc">Sviluppare atteggiamenti fondati sul rispetto, sulla responsabilità individuale e sulla legalità</div>
+      <div class="competenza-skills">
+        <div class="competenza-skill">Riconoscere diritti e doveri nella comunicazione online</div>
+        <div class="competenza-skill">Argomentare rispettando la persona e contrastando hate speech</div>
+        <div class="competenza-skill">Assumere responsabilità nella pubblicazione di contenuti</div>
+      </div>
+    </div>
+
+    <div class="competenza-card">
+      <div class="competenza-code">C.ED.CIV.03</div>
+      <div class="competenza-desc">Rispettare le regole per contribuire al bene comune e al rispetto dei diritti</div>
+      <div class="competenza-skills">
+        <div class="competenza-skill">Applicare regole condivise per il confronto democratico</div>
+        <div class="competenza-skill">Rispettare norme e consegne per il bene comune</div>
+        <div class="competenza-skill">Adottare comportamenti corretti nei contesti digitali (netiquette)</div>
+      </div>
+    </div>
+
+    <div class="competenza-card">
+      <div class="competenza-code">C.ED.CIV.10</div>
+      <div class="competenza-desc">Accedere alle informazioni e ai contenuti digitali in modo critico, responsabile e consapevole</div>
+      <div class="competenza-skills">
+        <div class="competenza-skill">Selezionare fonti attendibili e riconoscere la disinformazione</div>
+        <div class="competenza-skill">Valutare contenuti digitali con criteri espliciti</div>
+        <div class="competenza-skill">Citare correttamente le fonti e motivare le proprie scelte</div>
+      </div>
+    </div>
+
+    <div class="competenza-card">
+      <div class="competenza-code">C.ED.CIV.11</div>
+      <div class="competenza-desc">Individuare forme di comunicazione digitale adeguate rispettando le regole di ogni contesto</div>
+      <div class="competenza-skills">
+        <div class="competenza-skill">Scegliere canali e registri adeguati al contesto comunicativo</div>
+        <div class="competenza-skill">Gestire comunicazione sincrona e asincrona rispettando le regole</div>
+        <div class="competenza-skill">Produrre messaggi chiari, rispettosi e verificabili</div>
+      </div>
+    </div>
+
+    <div class="competenza-card">
+      <div class="competenza-code">C.ED.CIV.12</div>
+      <div class="competenza-desc">Gestire l'identità digitale e i dati, salvaguardando la sicurezza negli ambienti digitali</div>
+      <div class="competenza-skills">
+        <div class="competenza-skill">Proteggere identità digitale e dati (password robuste, MFA)</div>
+        <div class="competenza-skill">Riconoscere minacce comuni (phishing, malware) e prevenirle</div>
+        <div class="competenza-skill">Comprendere le implicazioni di privacy e sicurezza</div>
+      </div>
+    </div>
+    
+    <div class="callout">
+      <strong>Framework competenze italiano:</strong> Le competenze C.ED.CIV. sono state definite dal Ministero dell'Istruzione con DM 35/2019 e integrate con il Piano Nazionale di Educazione Civica (2020). Queste competenze si basano sul Reference Framework of Competences for Democratic Culture del Consiglio d'Europa e sul Digital Competence Framework for Citizens (DigComp 2.2) della Commissione Europea. L'Italia è il primo paese europeo ad avere un sistema certificato di competenze di educazione civica digitale.
+      <br><br>
+      <strong>Fonti:</strong> MIUR - DM 35/2019; Consiglio d'Europa - Reference Framework of Competences for Democratic Culture; EU DigComp 2.2 Framework
+    </div>
+
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- EQUILIBRIO -->
+  <section id="equilibrio">
+    <div class="section-label">Conclusioni</div>
+    <h2 class="section-title">Equilibrio tra libertà e sicurezza</h2>
+    <p>
+      Libertà e sicurezza non sono valori contrapposti: trovare il loro equilibrio è la sfida
+      fondamentale della cittadinanza digitale del XXI secolo.
+    </p>
+    <div class="grid">
+      <div class="card">
+        <div class="card-icon">🌱</div>
+        <h3>Cittadinanza digitale consapevole</h3>
+        <p>Essere cittadini digitali significa esercitare i propri diritti online con responsabilità verso sé stessi e gli altri.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🤔</div>
+        <h3>Pensiero critico</h3>
+        <p>Verificare, questionare e ragionare sulle informazioni che riceviamo è la difesa più efficace contro manipolazione e disinformazione.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🛡️</div>
+        <h3>Sicurezza come responsabilità condivisa</h3>
+        <p>La sicurezza digitale non è solo un problema tecnico: è una responsabilità collettiva che riguarda ogni utente della rete.</p>
+      </div>
+    </div>
+    
+    <div class="callout" style="margin-top: 28px; border-left-color: var(--accent3);">
+      <strong>Il diritto alla libertà di espressione e il diritto alla sicurezza si rafforzano a vicenda
+      in un ambiente digitale sano, equo e regolato.</strong>
+    </div>
+    
+    <div class="callout">
+      <strong>Prospettive future:</strong> L'equilibrio tra libertà e sicurezza nel mondo digitale continua ad evolversi. Le sfide emergenti includono l'IA generativa, la sorveglianza biometrica di massa, e la regolazione delle piattaforme digitali. Il Digital Services Act (DSA) e l'AI Act dell'UE stanno ridefinendo il panorama della governance digitale. Secondo l'Edelman Trust Barometer 2024, solo il 34% dei cittadini globali ha fiducia nella tecnologia, rendendo cruciale l'educazione alla cittadinanza digitale per costruire società resilienti e democratiche nel XXI secolo.
+      <br><br>
+      <strong>Fonti:</strong> EU Digital Services Act 2022; EU AI Act 2024; Edelman Trust Barometer 2024; World Economic Forum - Global Risks Report 2024
+    </div>
+    
+    <p style="color: var(--muted); font-size: 13px; margin-top: 32px; text-align: center;">
+      IIS Marconi Pieralisi · Jesi · UDA Educazione Civica · Classi 5AM, 5BM, 5CM
+    </p>
+  </section>
+
+</main>
+</div>
+</body>
+</html>
